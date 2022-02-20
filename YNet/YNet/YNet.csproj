@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ReleaseVersion>1.0.0</ReleaseVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Kcp" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Kcp" Version="2.0.0" />
+  </ItemGroup>
+</Project>
