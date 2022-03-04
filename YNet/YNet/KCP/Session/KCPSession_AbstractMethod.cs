@@ -19,5 +19,11 @@ namespace YNet.KCP
         /// </summary>
         /// <param name="bytes">接收到消息的字节数组</param>
         protected abstract void OnReceiveMessage(byte[] bytes);
+
+        /// <summary>
+        /// SessionUpdate时出现异常
+        /// </summary>
+        /// <param name="ex"></param>
+        protected abstract void UpdateException(Exception ex);
     }
 }

@@ -93,6 +93,7 @@ namespace YNet.KCP
             catch (Exception e)
             {
                 YNetTool.Warn("KCPSession Update 异常：{0}", e.ToString());
+                UpdateException(e);
             }
         }
 
